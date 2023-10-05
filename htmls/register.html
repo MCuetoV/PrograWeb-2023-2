@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" type="text/css" href="../estilos/register.css"/>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Registro de Usuario</h2>
+        <div class="two-columns">
+            <div class="column">
+                <h3>Datos Personales</h3>
+                <div class="form-subgroup">
+                    <label for="nombres">Nombres:</label>
+                    <input type="text" id="nombres" name="nombres" required>
+                </div>
+                <div class="form-subgroup">
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" id="apellidos" name="apellidos" required>
+                </div>
+                <div class="form-subgroup">
+                    <label for="tipo-documento">Tipo de Documento:</label>
+                    <input type="text" id="tipo-documento" name="tipo-documento" required>
+                </div>
+                <div class="form-subgroup">
+                    <label for="nro-documento">Nro de Documento:</label>
+                    <input type="text" id="nro-documento" name="nro-documento" required>
+                </div>
+            </div>
+            <div class="column">
+                <h3>Datos de la Cuenta</h3>
+                <div class="form-subgroup">
+                    <label for="correo-electronico">Correo Electronico:</label>
+                    <input type="text" id="correo-electronico" name="correo-electronico" required>
+                </div>
+                <div class="form-subgroup">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-subgroup">
+                    <label for="confirm-password">Ingrese Password nuevamente:</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required>
+                </div>
+            </div>
+        </div>
+        <button type="submit" class="register">Registrar</button>
+    </div>
+</body>
+</html>
